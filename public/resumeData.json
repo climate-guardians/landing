@@ -1,111 +1,45 @@
 {
   "main": {
-    "name":"Nordic-Giant Project",
-    "description":"I am a web development engineer and I use react and vue.js to develop pages. This project is a resume template that can be used as the project home page or resume page",
-    "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "name":"Climate Warriors",
+    "description":"Play to reduce real life CO2 emissions! You can plant seeds in your climate garden, take care of your garden, capture CO2 and produce fresh AIR",
+    "image":"curupira.jpg",
+    "bio":"We are on a mission to develop the next generation game. Under the hood we are using defi-mechanics, Non Fungible Tokens and real-world Co2 credits. We keep gameplay clean and simple providing a low barrier to enter for people less familiar with Web3. For detailed information see our development doc:",
+    "dapp":"Please check out our beta Dapp. We use DeFi-mechanics for yield generation to buy as many Co2 tokens as humanly possible. The beta dapp is our in-house playground for experimentation and buidling the game mechanics.",
+    "roadmap":"We love to see a sustainable future for generations to come. Please explore our roadmap to find out how we envisage the future. Let's build a bright future together, we're open for all kind of wild ideas",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "youremailhere@gmail.com",
     "phone": "555-555-5555",
-    "github":"https://github.com/nordicgiant2/react-nice-resume",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "github":"https://github.com/GiraeffleAeffle/climate-warriors-app",
+    "project":"https://www.notion.so/climate-warriors/Climate-Garden-3000-Defend-the-planet-e39d9a8462aa4f60b390052cc74f3bbd",
     "address":{
       "street":"(Your Street)",
       "city":"(Your City)",
       "state":"(Your State)",
       "zip": "(Your Zip/Postal Code)"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "https://climate-warriors-app.vercel.app/",
+    "resumedownload":"https://docs.google.com/document/d/1Pj1mJwK2xOaAltul66k_lHQyxtL8Bfqr28-irhXmJqk/edit",
+    "dapplink":"https://climate-warriors-app.vercel.app/",
     "social":[
-      {
-        "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-facebook"
-      },
+      
       {
         "name":"twitter",
-        "url":"http://twitter.com",
+        "url":"https://twitter.com/NewLawVentures",
         "className":"fa fa-twitter"
       },
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/ale-couperus-7081766/",
         "className":"fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"https://github.com/GiraeffleAeffle/climate-warriors-app",
         "className":"fa fa-github"
       }
     ]
   },
-  "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
-    "education":[
-      {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2017",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      },
-      {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      }
-    ],
-    "work":[
-      {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2018 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      },
-      {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2017 - February 2018",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      }
-    ],
-    "skills":[
-      {
-        "name":"Python",
-        "level":"60%"
-      },
-      {
-        "name":"VueJs",
-        "level":"55%"
-      },
-      {
-        "name":"ReactJs",
-        "level":"50%"
-      },
-      {
-        "name":"CSS",
-        "level":"90%"
-      },
-      {
-        "name":"PHP",
-        "level":"80%"
-      },
-      {
-        "name":"Swift",
-        "level":"50%"
-      },
-      {
-        "name":"JAVA",
-        "level":"80%"
-      }
-    ]
-  },
+  
   "portfolio":{
     "projects": [
       {

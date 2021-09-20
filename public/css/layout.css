@@ -227,53 +227,45 @@ ul#nav li.current a { color: #fe6928; }
 
 
 /* ------------------------------------------------------------------ */
-/* d. Resume Section
+/* d. Roadmap Section
 /* ------------------------------------------------------------------ */
+#roadmap a, #roadmap a:visited  { color: #fff; }
+#roadmap a:hover, #roadmap a:focus { color: #0762f9; }
 
-#resume {
-   background: #fff;
-   padding-top: 90px;
-   padding-bottom: 72px;
-   overflow: hidden;
+#roadmap h2 {
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-top: 30px;
+   margin-bottom: 12px;
 }
-
-#resume a, #resume a:visited  { color: #0762f9; }
-#resume a:hover, #resume a:focus { color: #313131; }
-
-#resume h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
-   text-transform: uppercase;
-   letter-spacing: 1px;
+#roadmap p {
+   line-height: 30px;
+   color: #ccc;
 }
-#resume h1 span {
-   border-bottom: 3px solid #0762f9;
-   padding-bottom: 6px;
+#roadmap .profile-pic {
+   position: relative;
+   width: 120px;
+   height: 120px;
+   margin-top:30px;
+   border-radius: 100%;
 }
-#resume h3 {
-   font: 25px/30px 'opensans-bold', sans-serif;
+#roadmap .contact-details { width: 41.66667%; }
+#roadmap .download {
+   width: 58.33333%;
+   padding-top: 6px;
 }
-
-#resume .header-col { padding-top: 9px; }
-#resume .main-col { padding-right: 10%; }
-
-.education, .work {
-   margin-bottom: 48px;
-   padding-bottom: 24px;
-   border-bottom: 1px solid #E8E8E8;
-}
-#resume .info {
-   font: 16px/24px 'librebaskerville-italic', serif;
-   color: #6E7881;
-   margin-bottom: 18px;
-   margin-top: 9px;
-}
-#resume .info span {
-   margin-right: 5px;
-   margin-left: 5px;
-}
-#resume .date {
-   font: 15px/24px 'opensans-regular', sans-serif;
+#roadmap .main-col { padding-right: 5%; }
+#roadmap .download .button {
    margin-top: 6px;
+   background: #444;
+}
+#roadmap .download .button:hover {
+   background: #fff;
+   color: #2B2B2B;
+}
+#roadmap .download .button i {
+   margin-right: 15px;
+   font-size: 20px;
 }
 
 /*----------------------------------------------*/
