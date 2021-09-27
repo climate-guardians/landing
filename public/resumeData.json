@@ -1,7 +1,7 @@
 {
   "main": {
     "name":"Climate Warriors",
-    "description":"Play to reduce real life CO2 emissions! You can plant seeds in your climate garden, take care of your garden, capture CO2 and produce fresh AIR",
+    "description":"Play to reduce real life CO2 emissions! You can plant seeds in your garden, take care of your plants, capture CO2 and produce fresh AIR!",
     "image":"curupira.jpg",
     "bio":"We are on a mission to develop the next generation game. Under the hood we are using defi-mechanics, Non Fungible Tokens and real-world Co2 credits. We keep gameplay clean and simple providing a low barrier to enter for people less familiar with Web3. For detailed information see our development doc:",
     "dapp":"Please check out our beta Dapp. We use DeFi-mechanics for yield generation to buy as many Co2 tokens as humanly possible. The beta dapp is our in-house playground for experimentation and buidling the game mechanics.",

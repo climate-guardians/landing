@@ -1,38 +1,34 @@
 import React, { Component } from "react";
-import Zmage from "react-zmage";
 import Fade from "react-reveal";
 
-let id = 0;
 class Portfolio extends Component {
   render() {
-    if (!this.props.data) return null;
-
-    const projects = this.props.data.projects.map(function (projects) {
-      let projectImage = "images/portfolio/" + projects.image;
-
-      return (
-        <div key={id++} className="columns portfolio-item">
-          <div className="item-wrap">
-            <Zmage alt={projects.title} src={projectImage} />
-            <div style={{ textAlign: "center" }}>{projects.title}</div>
-          </div>
-        </div>
-      );
-    });
-
+  
     return (
       <section id="portfolio">
         <Fade left duration={1000} distance="40px">
           <div className="row">
             <div className="twelve columns collapsed">
               <h1>Check out our Co2 charged NFT collection:</h1>
-
+              <div>
+              <nft-card 
+              contractAddress="0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb" 
+              tokenId="1190">
+              </nft-card> 
+              <nft-card 
+              contractAddress="0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb" 
+              tokenId="1191">
+              </nft-card> 
+              <nft-card 
+              contractAddress="0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb" 
+              tokenId="1192">
+              </nft-card> 
+              </div>
               <div
                 id="portfolio-wrapper"
                 className="bgrid-quarters s-bgrid-thirds cf"
               >
-                {projects}
-              </div>
+             </div>
             </div>
           </div>
         </Fade>
