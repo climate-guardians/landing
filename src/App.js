@@ -8,6 +8,7 @@ import About from "./Components/About";
 import Contact from "./Components/Contact";
 import Portfolio from "./Components/Portfolio";
 import TimeLine from "./Components/TimeLine";
+import Team from "./Components/Team";
 
 class App extends Component {
   constructor(props) {
