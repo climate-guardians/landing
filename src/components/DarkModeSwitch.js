@@ -2,7 +2,7 @@ import { useColorMode, Switch } from '@chakra-ui/react'
 
 export const DarkModeSwitch = () => {
   const { colorMode, toggleColorMode } = useColorMode()
-  const isDark = colorMode === 'dark'
+  const isDark = colorMode === 'light'
   return (
     <Switch
       position="fixed"
