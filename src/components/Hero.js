@@ -1,5 +1,7 @@
-import { Container, Stack, Flex, Box, Heading, Text, Image, useColorModeValue } from "@chakra-ui/react";
+import { Container, Stack, Flex, Box, Heading, Text, useColorModeValue } from "@chakra-ui/react";
 import Blob from './Blob';
+import Image from 'next/image'
+import banner from '../../public/cw-banner.png'
 
 const Hero = () => {
   return (
@@ -30,7 +32,7 @@ const Hero = () => {
               Climate Guardians
             </Text>
             <br />
-            <Text as={'span'} color={'cyan.400'}>
+            <Text as={'span'} color={'blue.400'}>
               Play-to-reduce CO2
             </Text>
           </Heading>
@@ -52,7 +54,7 @@ const Hero = () => {
           />
           <Box
             position={'relative'}
-            height={'300px'}
+            height={'240px'}
             rounded={'2xl'}
             boxShadow={'2xl'}
             width={'full'}
@@ -63,9 +65,7 @@ const Hero = () => {
               align={'center'}
               w={'100%'}
               h={'100%'}
-              src={
-                'https://cdn.pixabay.com/photo/2016/04/15/04/02/water-1330252_960_720.jpg'
-              }
+              src={banner}
             />
           </Box>
         </Flex>
