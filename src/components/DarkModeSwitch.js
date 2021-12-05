@@ -11,7 +11,7 @@ export const DarkModeSwitch = () => {
   return (
     <Flex>
       <Flex
-        position="fixed"
+        position="absolute"
         top="1rem"
         right="1rem"
         align="center">

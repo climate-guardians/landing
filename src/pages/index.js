@@ -1,30 +1,57 @@
 import {
   Link as ChakraLink,
   Text,
-  Code,
-  Flex,
+  Box,
   Heading,
-  List,
-  ListIcon,
-  ListItem,
   VStack
 } from '@chakra-ui/react'
-import { CheckCircleIcon, LinkIcon, Box } from '@chakra-ui/icons'
+import { CheckCircleIcon, LinkIcon } from '@chakra-ui/icons'
 import { Container } from '../components/Container'
 import { DarkModeSwitch } from '../components/DarkModeSwitch'
 import { Footer } from '../components/Footer'
-import Hero from '../components/Hero'
-import curupira from '../../public/cw-curupira.png'
-import naiara from '../../public/cw-naiara.png'
-import naiaraPlants from '../../public/naiara-plants.png'
-import politician from '../../public/cw-politician.png'
+import banner from '../../public/cw-banner2.png'
+import curupira from '../../public/cw-curupira2.png'
+import naiara from '../../public/cw-naiara2.png'
+import politician from '../../public/cw-politician2.png'
 import Image from 'next/image'
 import SplitScreenLeft from '../components/SplitScreenLeft'
 import SplitScreenRight from '../components/SplitScreenRight'
 
 const Index = () => (
   <Container height="450vh">
-      <Hero />
+    <Box>
+      <Heading
+        lineHeight={1.1}
+        fontWeight={800}
+        fontSize={ { base: '6xl', sm: '4xl', lg: '6xl' } }>
+        <Text
+          as={'span'}
+          position={'relative'}
+          _after={ {
+            content: "''",
+            width: 'full',
+            height: '20%',
+            position: 'absolute',
+            bottom: 3,
+            left: 0,
+            bg: 'cyan.400',
+            zIndex: -1,
+          } }>
+          Climate Guardians
+        </Text>
+        <br />
+        <Text as={'span'} color={'blue.400'}>
+          Play-to-reduce CO2
+        </Text>
+      </Heading>
+      <Image
+        objectFit="cover"
+        src={banner}
+        alt="Let the games begin"
+        priority={true}
+        placeholder="blur"
+      /> 
+      </Box>    
       <VStack>
       <SplitScreenLeft 
         img={naiara}
@@ -52,16 +79,7 @@ const Index = () => (
         possible. His evil corporations are a force to be reckoned with.'
       />
       </VStack>
-      {/* <Stack direction="row">
-        <Image
-          boxSize="150px"
-          objectFit="cover"
-          src={politician}
-          alt="Corupt Politician"
-          priority={true}
-          placeholder="blur"
-        />   
-        <Image
+        {/* <Image
           boxSize="150px"
           objectFit="cover"
           src={curupira}
@@ -76,8 +94,7 @@ const Index = () => (
           alt="Naiara"
           priority={true}
           placeholder="blur"
-        />
-      </Stack> */}
+        /> */}
     <DarkModeSwitch />
     <Footer>
       <Text>climateguardians.io</Text>
