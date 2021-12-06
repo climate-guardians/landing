@@ -1,5 +1,4 @@
 import {
-  Link as ChakraLink,
   Text,
   Box,
   Heading,

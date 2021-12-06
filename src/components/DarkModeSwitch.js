@@ -1,7 +1,7 @@
 import { useColorMode, Switch, Flex, Button, IconButton } from '@chakra-ui/react'
 import { useState } from 'react'
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons'
-import NextLink from 'next/link'
+import Link from 'next/link'
 
 export const DarkModeSwitch = () => {
   const { colorMode, toggleColorMode } = useColorMode()
@@ -19,24 +19,24 @@ export const DarkModeSwitch = () => {
         {/*Desktop */}
         <Flex
           display={['none', 'none', 'flex', 'flex']}
-        >
-          {/* <NextLink href="/" passHref>
-            <Button as="a" variant="ghost" aria-label="Home" my={5} w="100%">
-              Home
-            </Button>
-          </NextLink> */}
-
-          <NextLink href="/about" passHref>
-            <Button as="a" variant="ghost" aria-label="About" my={5} w="100%">
+          >
+          <Link href="/about" passHref>
+            <Button as="a" variant="ghost" aria-label="About" my={5} w="100%" >
               About
             </Button>
-          </NextLink>
+          </Link>
 
-          <NextLink href="https://climate-warriors-app.vercel.app/welcome" passHref>
+          <Link href="https://climateguardians.medium.com" passHref>
+            <Button as="a" variant="ghost" aria-label="Home" my={5} w="100%">
+              Blog
+            </Button>
+          </Link>
+
+          <Link href="https://climate-warriors-app.vercel.app/welcome" passHref>
             <Button as="a" variant="ghost" aria-label="Contact" my={5} w="100%">
               Enter App
             </Button>
-          </NextLink>
+          </Link>
         </Flex>
 
         {/* Mobile */}
@@ -84,23 +84,24 @@ export const DarkModeSwitch = () => {
           flexDir="column"
           align="center"
         >
-          {/* <NextLink href="/" passHref>
-            <Button as="a" variant="ghost" aria-label="Home" my={5} w="100%">
-              Home
-            </Button>
-          </NextLink> */}
-
-          <NextLink href="/about" passHref>
+         
+          <Link href="/about" passHref>
             <Button as="a" variant="ghost" aria-label="About" my={5} w="100%">
               About
             </Button>
-          </NextLink>
+          </Link>
 
-          <NextLink href="https://climate-warriors-app.vercel.app/welcome" passHref>
+          <Link href="https://climateguardians.medium.com" passHref>
+            <Button as="a" variant="ghost" aria-label="Home" my={5} w="100%">
+              Blog
+            </Button>
+          </Link>
+
+          <Link href="https://climate-warriors-app.vercel.app/welcome" passHref>
             <Button as="a" variant="ghost" aria-label="Contact" my={5} w="100%">
               Enter App
             </Button>
-          </NextLink>
+          </Link>
         </Flex>
       </Flex>
     </Flex>
